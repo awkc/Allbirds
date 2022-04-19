@@ -1,0 +1,42 @@
+.collections {
+  padding-bottom: 134px;
+  &__title {
+    text-align: start;
+    margin-left: 100px;
+    margin-bottom: 24px;
+  }
+  &__carousel {
+    position: relative;
+    padding: 0 100px;
+  }
+  &__img {
+    margin-bottom: 17px;
+  }
+  &__subtitle {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  &__descr {
+    padding: 0 20px;
+    letter-spacing: 0.5px;
+  }
+}
+
+
+.slick-prev,
+.nextArrow {
+  position: absolute;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  left: -30px;
+  top: 50%;
+}
+
+.nextArrow {
+  right: -30px;
+  left: auto;
+}

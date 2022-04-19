@@ -1,0 +1,123 @@
+.favorites {
+  padding: 120px 0 140px;
+  &__title {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  &__tabs {
+    display: flex;
+    justify-content: center;
+  }
+  &__tab {
+    margin-right: 132px;
+    list-style-type: none;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 160px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &:hover {
+      border-bottom: 2px solid #000000;
+      font-weight: 700;
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__divider {
+    display: block;
+    border-top: 2px solid #d3d4d5;
+  }
+  &__content {
+    display: none;
+    &_active {
+      display: block;
+    }
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 102px;
+  }
+}
+
+.favorites-item {
+  position: relative;
+  margin-top: 34px;
+  max-width: 396px;
+  &__btns {
+    position: absolute;
+    left: 50%;
+    top: 144px;
+    transform: translateX(-50%);
+  }
+  &__btn {
+    display: block;
+    margin-bottom: 12px;
+    width: 276px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__wrapper {
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  &__subtitle {
+    display: block;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  &__divider {
+    display: block;
+    max-width: 336px;
+    border-bottom: 1px solid #000;
+  }
+  &__decr {
+    position: relative;
+    display: block;
+    margin-top: 16px;
+    margin-left: 42px;
+  }
+  &__icon {
+    margin-top: 11px;
+    position: absolute;
+    display: inline-block;
+  }
+}
+
+.wrapper-image {
+  background-image: url("../img/wrapper_image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 542px;
+}
+
+.seasons {
+  padding: 52px 0 120px 0;
+  &__title {
+    margin-bottom: 54px;
+  }
+  &__subtitle {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  &__btns {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn {
+    background-color: #212a2f;
+    color: #fff;
+    &:last-child {
+      margin-left: 24px;
+    }
+  }
+}

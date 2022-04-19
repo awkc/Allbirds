@@ -1,0 +1,32 @@
+.wrapper-image {
+  background-image: url("../img/wrapper_image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 542px;
+}
+
+.nature {
+  padding-bottom: 120px;
+  &__image {
+    min-height: 545px;
+    margin-bottom: 44px;
+  }
+  &__title {
+    margin-bottom: 22px;
+  }
+  &__descr {
+    display: block;
+    max-width: 655px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    min-width: 384px;
+    background-color: #212A2F;
+    color: #fff;
+  }
+}

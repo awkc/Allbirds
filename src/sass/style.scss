@@ -1,0 +1,33 @@
+@import "libs/reset";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "libs/slick";
+
+
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #212a2f;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+@import "blocks/title";
+@import "blocks/buttons";
+@import "blocks/header";
+@import "blocks/header-bottom";
+@import "blocks/collections";
+@import "blocks/favorites";
+@import "blocks/nature";
+@import "blocks/first-dibs";
+@import "blocks/footer";

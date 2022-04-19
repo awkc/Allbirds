@@ -1,0 +1,46 @@
+.first-dibs {
+  padding: 48px 0;
+  &__title {
+    margin-bottom: 34px;
+  }
+  &__descr {
+    display: block;
+    text-align: center;
+    max-width: 823px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  &__input {
+    width: 588px;
+    input {
+      width: 100%;
+      height: 100%;
+      padding: 15px 60px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.22);
+      border: none;
+      border-bottom: 2px solid #212A2F;
+    }
+  }
+  &__button {
+    background: #212A2F;
+    color: #fff;
+    max-width: 111px;
+    margin-left: 12px;
+  }
+  &__items {
+    text-align: center;
+    padding-right: 45px;  
+  }
+  &__item {
+    color: #74797C;;
+  }
+  &__link {
+    color: #74797C;;
+  }
+}
